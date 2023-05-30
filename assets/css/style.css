@@ -1,0 +1,447 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+
+}
+@font-face {
+    font-family: "roboto bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+strong{
+   font-family: "roboto bold"; 
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto bold"
+}
+
+*, body {
+    margin: 0 ;
+    font-family: "Roboto Regular";
+}
+
+/* HEADER */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    .main-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+} 
+
+.img-logo-h{
+    width: 50px;
+}
+
+.main-menu .main-menu-element {
+    list-style: none;
+    padding: 0 1.5rem;
+
+}.main-menu .main-menu-element:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+
+/* SECTION 1 IMG CONTACT */
+
+#img-contact{
+    background-image: url(../img/photo-1556139943-4bdca53adf1e\ 1.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* BOUTON CONTACT */
+
+.btn-contact {
+    background-color: rgb(210, 25, 146);
+    color: white;
+    border-radius: 5px;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+/* ARTICLE 1 //*/
+
+
+
+#approche-titre{
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.haaa{
+    display: flex;
+    flex: column ;
+    
+}
+
+
+.approche{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px; 
+    
+}
+
+.haaa h4{
+    padding-left: 38px;
+    margin-bottom: 30px;
+}
+
+.haaa ul{
+    padding-bottom: 40px;
+}
+.approche li{
+   list-style-type:'- '; 
+}
+
+
+
+
+
+
+
+/* METHODE PEP'S */
+
+#methode{
+    
+    text-align: center;
+   
+    margin:15px;
+
+    margin-top: 50px;
+
+   
+}
+
+/* .article div img {
+    padding-bottom:  100px;
+} */
+
+/* BOUTON SAVOIR */
+
+.btn-savoir{
+    background-color: rgb(255, 255, 255);
+    color: rgb(154, 8, 8);
+    border: solid 1px pink;
+    border-radius: 5px; 
+    padding: 15px 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+/* QUATUOR */
+
+
+#container-quatuor {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.heart{
+    width: 35%;
+    margin-bottom: 100px;
+}
+
+.hand{
+    width: 35%;
+}
+
+.rocket{
+    width: 35%;
+}
+
+.puzzle{
+    width: 35%;
+}
+
+
+ h3 {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ACCOMPAGNEMENT */
+
+
+
+#accompagnement{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.accompagnement1{
+margin-top: 40px;
+}
+
+.fort{
+    font-weight: 900px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.ligne1{
+    text-align: center;
+    
+}
+
+
+/* TRIO PEP'S */
+
+.titre1::after{
+      font-family: "roboto bold";
+    content: "";
+    background-color: rgb(98, 224, 240);
+    display: block;
+    width: 200px;
+    height: 15px;
+   margin: -4% auto 0 ;
+}
+
+.titre2::after{
+      font-family: "roboto bold";
+    content: "";
+    background-color: rgb(209, 240, 98);
+    display: block;
+    width: 200px;
+    height: 15px;
+   margin: -4% auto 0 ;
+}
+
+.titre3{
+      font-family: "roboto bold";
+    content: "";
+    background-color: rgb(189, 119, 218);
+    display: block;
+    width: 200px;
+    height: 15px;
+   margin: -4% auto 0 ;
+}
+
+#triopeps {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.talent{
+    witdh: 300px;
+    height: 200px;
+    position: relative;
+    margin: 0% 5%;
+    text-align: center;
+
+}
+
+.btn-decouvre{
+    background-color: rgb(255, 255, 255);
+    color: rgb(252, 140, 159);
+    border: solid 2px rgb(252, 140, 159);
+    border-radius: 5px; 
+    padding: 12px 45px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.btn-decouvre:hover{
+    margin-top: 50px;
+  
+}
+
+
+/* NO REGRET */
+
+.titre-no-regret{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ligne1{
+margin-bottom: 50px;
+
+}
+
+.tete{
+    height: 40vh;
+    border:1px solid rgb(5, 205, 249);
+}
+
+
+
+.tete img{
+    margin-top: -50px;
+    border: 10px solid white;
+}
+.titre no regret{
+    width: 300px;
+    height: auto;
+    position:relative;
+    margin: 3% 6%;
+    text-align:center;
+    border: 2px solid rgb(38, 165, 204)
+}
+
+
+.no-regret-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.recule{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+
+
+
+/* BLOG */
+
+.titre-blog{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.pouvoirs{
+    display: flex;
+    border-bottom: 2px solid  rgb(38, 165, 204);
+    
+}
+
+.activateur{
+    display: flex;
+}
+
+.pouvoirs{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.activateur{
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.btn-lire{
+    background-color: rgb(255, 255, 255);
+    color:pink;
+    border: solid 1px pink;
+    border-radius: 5px; 
+    padding: 15px 60px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.image4{
+    padding-right: 100px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background-color:rgb(240, 228, 228);
+    padding: 70px 0;
+    
+    
+}
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+
+}
+
+.image-footer{
+padding-right: 30px;
+border-right: 2px solid  rgb(0, 0, 0);
+
+}
+
+.textefooter{
+padding-left: 40px;
+}
+
+.footer2 ul{
+   display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.footer2 ul li{
+    list-style: none;
+    padding: 1rem;
+}
+
+
+.footer-menu li:not(:last-child){
+border-right: 1px solid black;
+
+}
+
+/* .footer-menu{
+margin: 0 auto;
+padding:0;
+
+} */
+
+
+/* RESPONSIVE */
+@media screen and (max witdh: 768px)
+
+@media screen and (max witdh: 560px)
